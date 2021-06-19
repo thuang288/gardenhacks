@@ -5,8 +5,8 @@ import space from "./imgs/space.jpg"
 export default function Earth() {
     return (
     <Globe 
+        backgroundImageUrl="//unpkg.com/three-globe/example/img/night-sky.png"
         globeImageUrl="//unpkg.com/three-globe/example/img/earth-night.jpg" 
-        // backgroundImageUrl="./imgs/space.jpg"
     />
     )
 }
