@@ -4,7 +4,8 @@ import Globe from 'react-globe.gl';
 export default function Earth() {
     
     const globeEl = useRef();
-    
+   
+ 
     useEffect(() => {
         // Auto-rotate
         globeEl.current.controls().autoRotate = true;
