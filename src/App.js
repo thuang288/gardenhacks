@@ -31,12 +31,6 @@ import Globe from 'react-globe.gl';
     )
   }
 
-  const Lights = () => {
-    return (
-      <ambientLight intensity={.3}/>
-    )
-  }
-
 function App() {
   return (
     <>
