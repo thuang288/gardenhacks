@@ -1,7 +1,7 @@
 import React, { Suspense } from "react";
 import "./App.css";
-import { Canvas } from "@react-three/fiber";
-import { Html, useGLTF } from "@react-three/drei";
+// import { Canvas } from "@react-three/fiber";
+// import { Html, useGLTF } from "@react-three/drei";
 import Globe from 'react-globe.gl';
 
 // const Model = () => {
@@ -24,7 +24,9 @@ import Globe from 'react-globe.gl';
   const Earth = () => {
     return (
       <>
-      <Globe />
+      <Globe 
+        globeImageUrl="//unpkg.com/three-globe/example/img/earth-night.jpg" 
+      />
       </>
     )
   }
@@ -45,9 +47,7 @@ function App() {
           <HTMLContent />
         </Suspense>
       </Canvas> */}
-      <Earth
-        globeImageUrl="//unpkg.com/three-globe/example/img/earth-night.jpg"
-      />
+      <Earth/>
     </>
   );
 }
